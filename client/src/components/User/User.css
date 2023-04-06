@@ -1,0 +1,159 @@
+/* app navigation */
+.user-header {
+    /* border-bottom: 1px solid #eeeeee; */
+}
+
+.user-nav {
+    background-color: transparent;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-nav-brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    color: #084298;
+}
+
+.user-nav-brand i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.user-nav-brand .user-nav-brand-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user-nav-menu-item {
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-nav-menu-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+.user-nav-menu-link i {
+    padding-right: 10px;
+} 
+
+.user-nav-menu {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+}
+
+.user-nav-menu .user-nav-menu-item i {
+    font-size: 16px;
+}
+
+/* app content */
+.user-content {
+    /* padding: 40px 0; */
+    min-height: 700px;
+}
+
+/* app footer */
+.user-footer {
+    /* height: 180px; */
+    border-top: 1px solid #f8f9fa;
+}
+
+.user-footer .user-footer-contact-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.user-footer-contact-list .user-footer-contacts {
+    padding: 20px 0 10px 0;
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.user-footer-contact-list .user-footer-contacts li {
+    width: 40px;
+}
+
+.user-footer-contact-list .user-footer-contacts li .user-footer-icon {
+    font-size: 30px;
+    color: #084298;
+}
+
+.user-footer-author {
+    color: slategrey;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.user-footer-author p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.active.user-nav-menu-link {
+    color: #084298;
+    background-color: #fff;
+    cursor: pointer !important;
+    font-weight: bold;
+}
+
+/* loading spinner */
+.loadingSpinner {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+i.loading {
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    -ms-animation: spin 2s linear infinite;
+    -o-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    color: #227dc2;
+}
+
+@-webkit-keyframes spin /* Safari and Chrome */ {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+}

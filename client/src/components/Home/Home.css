@@ -1,0 +1,50 @@
+.more-favorite {
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.more-favorite-link {
+    background-color: #084298;
+    color: #fff;
+}
+
+.more-favorite-link:hover {
+    opacity: 0.7;
+    background: #084298;
+    color: #fff;
+}
+
+.more-favorite-link-text {
+    padding-right: 10px;
+}
+
+.post-top-cards {
+    padding: 3rem 0;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 500px;
+}
+
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 3.5rem;
+}
+
+.btn-primary {
+    background-color: #084298 !important;
+}
+
+.text-primary, .btn-secondary, .btn-outline-primary {
+    color: #084298 !important;
+}

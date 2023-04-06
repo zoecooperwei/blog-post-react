@@ -1,0 +1,158 @@
+.post-list {
+    padding: 40px 0;
+}
+
+/* post table */
+.post-table {
+    width: 100%;
+}
+
+.post-table th, .post-table td {
+    padding: 15px;
+    border-color: #eaeaea;
+    border-width: 1px;
+}
+
+.action-btns {
+    display: flex;
+}
+
+.action-btns .action-btn {
+    width: 30px;
+    cursor: pointer;
+}
+
+.action-btns .action-btn:hover {
+    opacity: 0.7;
+}
+
+/* pagination */
+.paginate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    margin-top: 15px;
+}
+
+.paginate .page-item {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* .paginate .page-item:hover {
+    opacity: 0.7;
+} */
+
+.inactive {
+    border: 1px solid #333;
+}
+
+.active {
+    background-color: #084298;
+    color: #fff;
+    cursor: default !important;
+}
+
+.disable {
+    cursor: default !important;
+    color: grey;
+}
+
+/* post list header */
+.post-list-header {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* post controls */
+.post-controls {
+    display: flex;
+    align-items: center;
+}
+
+/* add new button */
+.add-new {
+    border: 1px solid #333;
+    padding: 0px 10px;
+    border-radius: 10px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.add-new:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.add-new-btn {
+    background: #fff;
+    /* border-radius: 5px;
+    border: 1px solid; */
+    border: none;
+}
+
+/* view option */
+.view-options {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.view-option {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.view-option:hover {
+    opacity: 0.7;
+}
+
+.view-active {
+    background-color: #084298;
+    color: #fff;
+}
+
+.post-list-cards {
+    padding: 1rem 0;
+}
+
+.error-msg, 
+.empty-msg {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.error-msg-info,
+.empty-msg-info {
+    margin: 0;
+    margin-right: 20px
+}
+
+/* responsive media */
+@media only screen and (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}

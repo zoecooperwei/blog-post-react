@@ -1,0 +1,13 @@
+.rating-row {
+    display: flex;
+    align-items: center;
+}
+
+.star-container {
+    margin-right: 5px;
+}
+
+.star-container i {
+    font-size: 20px;
+    color: #084298;
+}

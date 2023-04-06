@@ -1,0 +1,179 @@
+/* post form field */
+.post-form .form-field {
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.form-field .input-label {
+    padding: 10px 0;
+}
+
+.special-label {
+    position: absolute;
+    /* bottom: 35px; */
+    left: 20px;
+    background: #fff;
+    font-size: 14px;
+    top: -10px;
+    padding: 0 2px !important;
+}
+
+.form-field .post-input {
+    padding: 10px 15px;
+    background: transparent;
+    border: 1px solid #a1a1a1;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form-field .post-textarea {
+    padding: 10px 15px;
+    background: transparent;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #a1a1a1;
+    width: 100%;
+}
+
+.post-input:focus, .post-textarea:focus {
+    /* border: none; */
+    outline: none;
+}
+
+.post-textarea {
+    resize: none;
+}
+
+.form-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.form-save-btn {
+    padding: 8px 20px;
+    background: #084298;
+    border-radius: 12px;
+    border: 1px solid #084298;
+    cursor: pointer;
+    color: #fff;
+}
+
+.form-back-btn {
+    padding: 8px 20px;
+    /* background: #eaeaea; */
+    border-radius: 12px;
+    border: 1px solid #aeaeae;
+    cursor: pointer;
+    color: #686868;
+}
+
+.disable-save {
+    cursor: default;
+    opacity: 0.7;
+}
+
+.form-save-btn:hover, .form-back-btn:hover {
+    opacity: 0.7;
+}
+
+.validate-msg {
+    background: #e9ecef;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    color: grey;
+    font-size: 14px;
+}
+
+.validate-msg i {
+    margin-right: 5px;
+}
+
+.toast-retry {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toast-text {
+    font-size: 14px;
+}
+
+.toast-retry-button {
+    background: #fff;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    padding: 2px 10px;
+    font-size: 13px;
+    padding: 2px 11px;
+    border-radius: 12px;
+    border: 1px solid #aeaeae;
+    cursor: pointer;
+    color: #686868;
+}
+
+.toast-retry-button:hover {
+    opacity: 0.7;
+}
+
+.edit-post-page {
+    padding: 40px 60px;
+}
+
+.post-edit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 800px; */
+    box-shadow: 0 0 10px 5px #e6e6e6;
+    border-radius: 20px;
+    /* width: 900px; */
+    width: 80%;
+    margin: auto;
+}
+
+.post-image {
+    /* width: 100%; */
+    padding: 0;
+}
+
+.post-image img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.post-image .form-image {
+    /* width: 100%; */
+    /* height: 500px; */
+}
+
+.post-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-form-content {
+    display: flex;
+    /* width: 80%; */
+    width: 50%;
+    /* margin: auto; */
+    flex-direction: column;
+    padding: 40px 0;
+}
