@@ -1,4 +1,4 @@
-# blog-post-react MERN app
+# blog-post MERN app
 
 ## Main Achievement
 
