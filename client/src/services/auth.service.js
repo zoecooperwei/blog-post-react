@@ -2,7 +2,7 @@ import axios from 'axios';
 const { EventEmitter } = require('events');
 var authEventEmitter = new EventEmitter();
 // const base_url = "http://localhost:3002";
-const base_url = "https://post-manage-react.herokuapp.com";
+const base_url = "https://blog-post-react.herokuapp.com/";
 const { HTTPError, HTTPSuccess } = require("../shared/enum");
 import localStorageService from "../services/local.storage.service";
 const { AuthService } = require("../shared/enum");
