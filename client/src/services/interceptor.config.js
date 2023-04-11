@@ -2,7 +2,7 @@ import axios from "axios";
 import localStorageService from "./local.storage.service";
 const TokenService = new localStorageService();
 // const base_url = "http://localhost:3002";
-const base_url = "https://blog-post-react.herokuapp.com/";
+const base_url = "https://blog-post-react.herokuapp.com";
 const { HTTPError, HTTPSuccess } = require("../shared/enum");
 
 // Request interceptor
