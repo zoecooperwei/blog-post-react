@@ -238,7 +238,7 @@ const postPost = async (req, res) => {
                 tags: req.body.tags,
                 rating: req.body.rating,
                 image: new Image({
-                    contentType: 'image/png',
+                    contentType: req.file.mimetype,
                     url: publicUrl,
                 }),
                 createdAt: new Date()
