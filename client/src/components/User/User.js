@@ -15,9 +15,9 @@ function User() {
     const navigate = useNavigate();
     const dispatch = useDispatch();
     const userReq = new authService();
+    const currentUser = userReq.getCurrentUser();
 
     useEffect(() => {
-        const currentUser = userReq.getCurrentUser();
         if (!currentUser) setRedirect("/login");
 
         // component did mount: add subcriptions
@@ -55,6 +55,13 @@ function User() {
         return <Navigate to={redirect} />
     }
 
+    let username;
+    if(currentUser) {
+        username = (
+            <span>({currentUser.username})</span>
+        )
+    }
+
     return (
         <div className="User">
             <header className="user-header">
@@ -68,7 +75,7 @@ function User() {
                     <ul className="user-nav-menu">
                         {menu}
                         <li className="user-nav-menu-item">
-                            <button className="btn btn-primary" onClick={onLogout}>Logout</button>
+                            <button className="btn btn-primary" onClick={onLogout} style={{ textTransform: "capitalize" }}>Logout {username}</button>
                         </li>
                     </ul>
                     {/* <button className="getMenu .btn" onClick={toggleSidebar}>

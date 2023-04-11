@@ -67,7 +67,7 @@ function Home() {
                 alt={data.title}
                 />
                 <Carousel.Caption>
-                <h3>Welcome to post manager</h3>
+                <h3>Welcome to Blog post manager</h3>
                 <p>Hope you had a good time here</p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -87,8 +87,8 @@ function Home() {
                             <div className="features-icons-icon d-flex">
                                 <i className="fa-solid fa-film m-auto text-primary"></i>
                             </div>
-                            <h3>Fully Responsive</h3>
-                            <p className="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                            <h3>Your content</h3>
+                            <p className="lead mb-0">Ready to create your own blog content here!</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
@@ -96,8 +96,8 @@ function Home() {
                             <div className="features-icons-icon d-flex">
                                 <i className="fa-solid fa-wand-magic-sparkles m-auto text-primary"></i>
                             </div>
-                            <h3>Bootstrap 5 Ready</h3>
-                            <p className="lead mb-0">Featuring the latest build of the new Bootstrap 5 framework!</p>
+                            <h3>Private Space</h3>
+                            <p className="lead mb-0">It provides a private personal space for your memories!</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
@@ -106,7 +106,7 @@ function Home() {
                                 <i className="fa-regular fa-lightbulb m-auto text-primary"></i>
                             </div>
                             <h3>Easy to Use</h3>
-                            <p className="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+                            <p className="lead mb-0">One click to manage your posts, share anything you want!</p>
                         </div>
                     </div>
                 </div>
@@ -170,8 +170,8 @@ function Home() {
                                 </div>
                                 <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
                                     <h1 className="mb-4">Hi There!</h1>
-                                    <h4 className="mb-4">Welcome to post manager</h4>
-                                    <p className="mb-4">It provides post management, including create, search, edit, and delete. Click below to check it out! Hope you had a good time here, enjoy!</p>
+                                    <h4 className="mb-4">Welcome to Blog post manager</h4>
+                                    <p className="mb-4">It provides Blog post management, including create, search, edit, and delete. Click below to check it out! Hope you had a good time here, enjoy!</p>
                                     <Link to="../post" className="more-favorite-link btn">
                                         <span className="text-capitalize more-favorite-link-text">Explore more</span>
                                         <i className="fas fa-arrow-right"></i>

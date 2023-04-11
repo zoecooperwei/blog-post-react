@@ -66,6 +66,7 @@
 .user-footer {
     /* height: 180px; */
     border-top: 1px solid #f8f9fa;
+    padding: 40px 0;
 }
 
 .user-footer .user-footer-contact-list {
