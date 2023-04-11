@@ -6,7 +6,15 @@ const cors = require('cors');
 const auth = require('./routes/auth.routes');
 const post = require('./routes/user.routes');
 
-app.use(express.static(path.join(__dirname + "./client/build")));
+if (process.env.NODE_ENV === 'production') {
+  // Exprees will serve up production assets
+  app.use(express.static(path.join(__dirname + './client/build')));
+
+  // Express serve up index.html file if it doesn't recognize route
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, './client', 'build', 'index.html'));
+  });
+}
 
 // for POST data, Express parse data to readable req body based on the client's POST request header's content-type
 // otherwise the req body will be empty/undefined
