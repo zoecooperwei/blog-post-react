@@ -32,11 +32,19 @@
 
 3. custom character validator.
 
+• Image uploading.
+
+1. Multer
+
+2. Google CS (Cloud Storage) with cloud bucket and service account key (JSON)
+
+3. Google KMS (Key management service) - In progress
+
 ## Step Description
 
 The steps to reach the movie favorites app are described as follows:
 
-• Enter http://18.188.247.235:3001 in the address bar, redirect to the homepage.
+• Enter https://blog-post-react.herokuapp.com/ in the address bar, redirect to the login/homepage.
 
 • Click Home link, go to the homepage.
 
