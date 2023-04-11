@@ -8,7 +8,7 @@ const post = require('./routes/user.routes');
 
 if (process.env.NODE_ENV === 'production') {
   // Exprees will serve up production assets
-  app.use(express.static(path.join(__dirname + './client/build')));
+  app.use(express.static(path.join(__dirname + '../../client/build')));
 }
 
 // for POST data, Express parse data to readable req body based on the client's POST request header's content-type
