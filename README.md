@@ -1,44 +1,53 @@
 # blog-post MERN app
 
-## Main Achievement
+## Client side 
 
-• Responsive Layout and Dynamic Carousel.
+• Login process with access token and refresh token.
+1. Register form to create a new account.
+2. Login form with authentication and authorization.
+3. Form validation and invalid login error notification.
 
-• Router Navigation.
+• Responsive Layout and React-bootstrap carousel.
 
-• Private API and Data Display.
-
-1. A mock server with RESTful API built in nodeJS, expressJS.
-
-2. Heroku and MongoDB for data storage and providing remote server as back-end reliable service.
+• React Router Navigation.
 
 • Post Management.
-
-1. Add a new movie with movie details.
-
-2. Edit the existing movie information about the name, the year, the director, the rating and the comment.
-
-3. Obtain the movie information via searching by name.
-
-4. Delete an existing movie.
-
-5. Save the new or modiﬁed movie data.
-
+1. Add a new blog with post details.
+2. Edit the existing blog post information about the title, the content, the mood, the background image.
+3. Obtain the blog post information via searching by title / content.
+4. Delete an existing blog post.
+5. Save the new or modiﬁed post data.
 • Reactive Form Validation.
-
 1. required validator.
-
 2. minLength validator.
 
-3. custom character validator.
-
 • Image uploading.
+1. Multer as middleware to access the image and form data.
+2. Google CS (Cloud Storage) with cloud bucket and service account key (JSON).
+3. Google KMS (Key management service) - In progress.
 
-1. Multer
+• Notification.
+1. React toastify library implementation.
+2. Different notification messages in terms of different post operations and errors.
 
-2. Google CS (Cloud Storage) with cloud bucket and service account key (JSON)
+• HTTP request handler
+1. Auth service - register, login, refreshToken, logout, getUserData, response data handling
+2. User service - Create, Edit/Update, Delete, Search
+3. Front-end development and Service decouple - Node event emitter Pub-Sub pattern
+4. Redux - logout: notify all components
+5. Access Token header - when user wants to access protected resources
+6. Refresh Token header - when access token expires
 
-3. Google KMS (Key management service) - In progress
+## Server side achievement
+
+• Private API and Data Display.
+1. A mock server with RESTful API built in nodeJS, expressJS.
+2. MongoDB for data storage and manipulation. (CRUD operations)
+3. Deploy with Heroku providing remote server as back-end reliable service.
+
+• Authentication and Authorization controller.
+
+• User post 
 
 ## Step Description
 
@@ -46,20 +55,28 @@ The steps to reach the movie favorites app are described as follows:
 
 • Enter https://blog-post-react.herokuapp.com/ in the address bar, redirect to the login/homepage.
 
+• Click Register here to create a new account for fresh user.
+
+• Enter existing username and password for existing user. 
+
 • Click Home link, go to the homepage.
 
-• Click Movie link/Get Started button, go to the movie page.
+• Click Movie link, go to the post page.
 
-• Click edit button, go to the movie info page and edit the movie information.
+• Click view button to switch between list view and card view.
 
-• Click delete button, remove the movie.
+• Click pagination bar to browse post pages.
 
-• Click New button, go to the blank movie info page and add new movie.
+• Click edit button, go to the post info page and edit the post information.
 
-• Search movie name, click search button, go to the movie info page directly instead of looking for it in the movie list.
+• Click delete button, remove the post.
 
-• Click Save button, save movie data and go back to the movie page.
+• Click New button, go to the blank post info page and add new post.
 
-• Click Back button, go back to the movie page directly.
+• Search post name/content, click search button, go to the post info page directly instead of looking for it in the post list.
 
-• Form validation when editing the movie information.
+• Click Save button, save movie data and go back to the post page.
+
+• Click Back button, go back to the post page directly.
+
+• Form validation when editing the post information.
