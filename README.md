@@ -1,4 +1,9 @@
 # blog-post MERN app
+• Login page
+![login](https://user-images.githubusercontent.com/42746063/232567496-87da0a91-bf52-4948-bc62-06bba8c9a525.png)
+
+• Register page
+![register](https://user-images.githubusercontent.com/42746063/232567700-bfb4bf06-1f1a-4ced-b3bd-0cdae45a5384.png)
 
 ## Client side 
 
@@ -80,11 +85,3 @@ The steps to reach the movie favorites app are described as follows:
 • Click Back button, go back to the post page directly.
 
 • Form validation when editing the post information.
-
-## GUI
-
-• Login page
-![login](https://user-images.githubusercontent.com/42746063/232567496-87da0a91-bf52-4948-bc62-06bba8c9a525.png)
-
-• Register page
-![register](https://user-images.githubusercontent.com/42746063/232567700-bfb4bf06-1f1a-4ced-b3bd-0cdae45a5384.png)
