@@ -73,7 +73,7 @@ The steps to reach the movie favorites app are described as follows:
 
 • Click Home link, go to the homepage.
 
-• Click Movie link, go to the post page.
+• Click Post link, go to the post page.
 
 • Click view button to switch between list view and card view.
 
