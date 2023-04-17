@@ -43,6 +43,11 @@
 5. Access Token header - when user wants to access protected resources
 6. Refresh Token header - when access token expires
 
+• Services (HTTP service, Storage service)
+1. Auth service
+2. User post service: Interceptor middleware for http request and response with token
+4. Local Storage service
+
 ## Server side achievement
 
 • Private API and Data Display.
