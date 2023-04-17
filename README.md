@@ -2,9 +2,6 @@
 • Login page
 ![login](https://user-images.githubusercontent.com/42746063/232567496-87da0a91-bf52-4948-bc62-06bba8c9a525.png)
 
-• Register page
-![register](https://user-images.githubusercontent.com/42746063/232567700-bfb4bf06-1f1a-4ced-b3bd-0cdae45a5384.png)
-
 • Home page (fresh user)
 ![initial_home](https://user-images.githubusercontent.com/42746063/232568760-feb53c70-5305-4a15-8b89-fd736f52ba38.png)
 
@@ -68,6 +65,7 @@ The steps to reach the movie favorites app are described as follows:
 • Enter https://blog-post-react.herokuapp.com/ in the address bar, redirect to the login/homepage.
 
 • Click Register here to create a new account for fresh user.
+![register](https://user-images.githubusercontent.com/42746063/232567700-bfb4bf06-1f1a-4ced-b3bd-0cdae45a5384.png)
 
 • Enter existing username and password for existing user. 
 
