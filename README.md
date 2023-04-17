@@ -5,6 +5,9 @@
 • Register page
 ![register](https://user-images.githubusercontent.com/42746063/232567700-bfb4bf06-1f1a-4ced-b3bd-0cdae45a5384.png)
 
+• Home page (fresh user)
+![initial_home](https://user-images.githubusercontent.com/42746063/232568760-feb53c70-5305-4a15-8b89-fd736f52ba38.png)
+
 ## Client side 
 
 • Login process with access token and refresh token.
