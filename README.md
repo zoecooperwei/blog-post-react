@@ -55,7 +55,11 @@
 
 • Authentication and Authorization controller.
 
-• User post 
+• Access token verification, Refresh token verification.
+
+JWT token verity api, refresh rotation strategy: issue new access token and new refresh token
+
+• User controller: getPosts, searchPost, updatePost, postPost, deletePost.
 
 ## Step Description
 
