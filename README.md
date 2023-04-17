@@ -83,7 +83,7 @@ The steps to reach the movie favorites app are described as follows:
 
 • Search post name/content, click search button, go to the post info page directly instead of looking for it in the post list.
 
-• Click Save button, save movie data and go back to the post page.
+• Click Save button, save post data and go back to the post page.
 
 • Click Back button, go back to the post page directly.
 
